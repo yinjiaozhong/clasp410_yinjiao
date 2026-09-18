@@ -188,6 +188,10 @@ nx = 50
 ny = 50
 
 def fire(nx, ny, prob_spread, prob_bare, prob_start):
+    """
+    Simulate wildfire spread on a 2-D grid and return
+    burned fractions and the forest state history.
+    """
     forest_history = []
     # create a new forest
     forest = np.zeros([ny, nx]) + 2
@@ -477,6 +481,10 @@ nx = 50
 ny = 50
 
 def disease(nx, ny, prob_spread, prob_vaccinated, prob_start, prob_fatal):
+    """
+    Simulate disease spread on a 2-D grid and return
+    final population fractions and the population history.
+    """
     population_history = []
     # create a new population
     population = np.zeros([ny, nx]) + 2
