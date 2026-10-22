@@ -20,7 +20,7 @@ ODE systems using Euler's method and RK45.
 
 3. Run the script:
 
-   python ode_lab.py
+   python Lab 02_yinjiao.py
 
 ## Outputs
 
