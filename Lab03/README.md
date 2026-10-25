@@ -18,9 +18,7 @@ The model assumes a blackbody surface and atmospheric layers with uniform emissi
 
 The energy balance equations are expressed as:
 
-\[
-A\mathbf{x}=\mathbf{b}
-\]
+Ax=b
 
 The linear system is solved using `numpy.linalg.solve()`, and the resulting radiative fluxes are converted to temperatures using the Stefan–Boltzmann law.
 
@@ -35,6 +33,20 @@ The linear system is solved using `numpy.linalg.solve()`, and the resulting radi
 | Nuclear winter | Surface temperature decreases from 321.13 K to 227.07 K |
 
 The model results are based on simplified radiative assumptions and do not include processes such as convection or atmospheric circulation.
+
+## Figures
+
+### Earth Surface Temperature vs. Emissivity
+![Earth Emissivity](figures/Task3_Emissivity.png)
+
+### Earth Atmospheric Temperature Profiles
+![Earth Temperature Profiles](figures/Task3_Temperature_Profiles.png)
+
+### Venus Surface Temperature
+![Venus](figures/Task4_Venus.png)
+
+### Nuclear Winter
+![Nuclear Winter](figures/Task5_Nuclear_Winter.png)
 
 ## Files
 
